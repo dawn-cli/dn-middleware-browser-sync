@@ -6,6 +6,9 @@ dev:
     port: 8001
   - name: $local
     location: ./lib/index.js
+  - name: shell
+    script:
+      - echo test
 
 test:
   - name: lint
